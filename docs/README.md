@@ -1,2 +1,2 @@
 # Welcome to fortunaut.dev
-This is the README. See /docs for the rest of the site
+This is my personal website. You're welcome to leave a Github issue if you have any questions.
