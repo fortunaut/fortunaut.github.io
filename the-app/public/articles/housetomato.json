@@ -1,0 +1,44 @@
+{
+  "title": "housetomato",
+  "content": [
+    {
+      "type": "h3",
+      "content": "The House Tomato"
+    },
+    {
+      "type": "p",
+      "content": [
+        {
+          "type": "span",
+          "content": "The House Tomato is a curious variety of the tomato plant, "
+        },
+        {
+          "type": "ItalicText",
+          "content": "Solanum lycopersicum"
+        },
+        {
+          "type": "span",
+          "content": ", a perennial originally from South America. This variety is especially small. Its leaves are fleshy like a succulent. Allegedly, it can be cut back at the end of summer and brought indoors until it can be left outside again in springtime. There are reports of these plants lasting for years. Who has ever heard of such a thing?"
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Here's what one of my House Tomatoes look like after starting indoors and being left outside for about a month."
+    },
+    {
+      "type": "img",
+      "src": "/images/housetomato-4-18-25.jpg",
+      "alt": "House tomato before flowering",
+      "style": {
+        "maxWidth": "40%",
+        "height": "auto",
+        "margin": "0 15%"
+      }
+    },
+    {
+      "type": "p",
+      "content": "As you can see, there aren't any fruit or flowers yet, so I cannot comment on the quality or taste of this variety. It's possible my backyard doesn't get enough sun or heat for the plant to fruit, but it may just need more time. I'll update this article with more information if any flowers come in. That's all for now. I hope you find the House Tomato as interesting as I do. Thanks for reading!"
+    }
+  ]
+}
