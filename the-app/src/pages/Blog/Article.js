@@ -25,6 +25,7 @@ const parseDisplayContent = (contentArray) => {
           />
         </div>
       }
+      return null;
     })}
   </>);
 }
