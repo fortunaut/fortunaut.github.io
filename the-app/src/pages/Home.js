@@ -15,17 +15,17 @@ const Home = () => {
     <section id="links">
       <h3>External Links</h3>
       <div>
-        <a href="https://www.linkedin.com/in/jrfortunato/" target="_blank">
+        <a href="https://www.linkedin.com/in/jrfortunato/" target="_blank" rel="noreferrer">
           LinkedIn Profile
         </a>
       </div>
       <div>
-        <a href="https://www.etsy.com/shop/JasoClayCo?ref=site001" target="_blank">
+        <a href="https://www.etsy.com/shop/JasoClayCo?ref=site001" target="_blank" rel="noreferrer">
           JasoClayCo Storefront
         </a>
       </div>
       <div>
-        <a href="https://github.com/fortunaut" target="_blank">
+        <a href="https://github.com/fortunaut" target="_blank" rel="noreferrer">
           Github Profile
         </a>
       </div>

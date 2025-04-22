@@ -21,6 +21,7 @@ const parseDisplayContent = (contentArray) => {
       if (obj.type === 'img') {
         return <div className="Article-image" key={index}>
           <img
+            alt="Fallback"
             {...obj}
           />
         </div>
