@@ -3,8 +3,11 @@ import Header from './layout/Header';
 import Home from './pages/Home';
 import About from './pages/About';
 import Donate from './pages/Donate';
-import Blog from './pages/Blog';
+import BlogLanding from 'pages/Blog/Landing';
+import BlogHeading from 'pages/Blog/Heading';
+import BlogArticle from 'pages/Blog/Article';
 import { Routes, Route } from 'react-router';
+import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
   return (
@@ -16,7 +19,11 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/donate' element={<Donate />} />
-            <Route path='/blog' element={<Blog />} />
+            <Route path='blog' element={<BlogHeading />} >
+              <Route index element={<BlogLanding />} />
+              <Route path=':title' element={<BlogArticle />} />
+            </Route>
+            <Route path='/*' element={<NotFoundPage />} />
           </Routes>
         </main>
         <footer>
