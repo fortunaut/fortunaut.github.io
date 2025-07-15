@@ -44,7 +44,7 @@ const Article = () => {
     setError(null); // clear out any error
     fetch(jsonFilePath).then(response => {
       if (!response.ok) {
-        throw new Error(`Network request was no ok: ${response.statusText}`);
+        throw new Error(`Network request was not ok: ${response.statusText}`);
       }
       return response.json();
     }).then(data => {

@@ -1,0 +1,52 @@
+{
+  "title": "groundcherry",
+  "content": [
+    {
+      "type": "h3",
+      "content": "Peruvian Groundcherry"
+    },
+    {
+      "type": "p",
+      "content": [
+        {
+          "type": "ItalicText",
+          "content": "Physalis peruviana"
+        },
+        {
+          "type": "span",
+          "content": " is also known as the Peruvian groundcherry or Cape gooseberry. It's a sort of lantern plant that produces a papery husk around each fruit. I was given these plants thinking they were rocoto peppers! Both species are members of the nightshades family, "
+        },
+        {
+          "type": "ItalicText",
+          "content": "Solanaceae"
+        },
+        {
+          "type": "span",
+          "content": ". Only once it began to flower did I realize these weren't the blue-violet petaled rocoto peppers. Instead, they had yellow and black flowers, indicitve of the groundcherry. A happy suprise, the Peruvian groundcherry is delicious! Tart and sweet, and I've unsuccessfully tried to germinate grouncherries from a fruit I ate earlier in the summer."
+        }
+      ]
+    },
+    {
+      "type": "p",
+      "content": "Here's the groundcherry in flower. Note the downward facing flower which sets the stage for the papery calyx, or lantern, that will eventually protect the fruit. Photo from June 5, 2025."
+    },
+    {
+      "type": "img",
+      "src": "/images/groundcherry-6-5-25.jpg",
+      "alt": "Flowering groundcherry",
+      "style": {
+        "maxWidth": "40%",
+        "height": "auto",
+        "margin": "0 15%"
+      }
+    },
+    {
+      "type": "p",
+      "content": "This plant seems to do really well here. This makes sense since it comes from the Andes, originally growing at high elevations. The climate here in SF is very similar. Pictures of the lanterns coming soon! They look good on the plant, I just haven't remembered to take a photograph."
+    },
+    {
+      "type": "p",
+      "content": "Page last edited Jul 14, 2024"
+    }
+  ]
+}
