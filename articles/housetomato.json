@@ -24,7 +24,7 @@
     },
     {
       "type": "p",
-      "content": "Here's what one of my House Tomatoes look like after starting indoors and being left outside for about a month."
+      "content": "Here's what one of my house tomato plants looks like after starting indoors and being left outside for about a month. Image taken April 18, 2025"
     },
     {
       "type": "img",
@@ -38,7 +38,21 @@
     },
     {
       "type": "p",
-      "content": "As you can see, there aren't any fruit or flowers yet, so I cannot comment on the quality or taste of this variety. It's possible my backyard doesn't get enough sun or heat for the plant to fruit, but it may just need more time. I'll update this article with more information if any flowers come in. That's all for now. I hope you find the House Tomato as interesting as I do. Thanks for reading!"
+      "content": "Here is another house tomato plant with immature fruits, three months later on July 10, 2025. In retrospect, I think I should've used gallon pots rather than these smaller ceramic pots. After harvest and some time before spring I'll up pot them."
+    },
+    {
+      "type": "img",
+      "src": "/images/housetomato-7-10-25.jpg",
+      "alt": "House tomato with immature fruits",
+      "style": {
+        "maxWidth": "40%",
+        "height": "auto",
+        "margin": "0 15%"
+      }
+    },
+    {
+      "type": "p",
+      "content": "Page last edited Jul 14, 2024"
     }
   ]
 }
