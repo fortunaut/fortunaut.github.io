@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plant ID Flashcards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="app">
+    <header>
+      <h1><span class="leaf">&#127811;</span> Plant ID Flashcards</h1>
+      <div class="stats">
+        Card <strong id="statPos">0</strong> of <strong id="statTotal">0</strong>
+        &middot; Mastered <strong id="statMastered">0</strong> / <strong id="statAll">0</strong>
+      </div>
+    </header>
+
+    <div class="controls">
+      <label for="modeSelect">Mode:</label>
+      <select id="modeSelect">
+        <option value="study">Study (front shows image + traits)</option>
+        <option value="quiz">Quiz (no image on front)</option>
+        <option value="reverse">Reverse (front shows names)</option>
+      </select>
+      <label for="familyFilter">Family:</label>
+      <select id="familyFilter">
+        <option value="all">All</option>
+      </select>
+      <span class="spacer"></span>
+      <button id="shuffleBtn">Shuffle</button>
+      <button id="resetBtn" class="warn" title="Clear mastered list and reset progress">Reset</button>
+    </div>
+
+    <div class="card-container">
+      <div class="card" id="card" tabindex="0">
+        <div class="card-face card-front" id="cardFront"></div>
+        <div class="card-face card-back" id="cardBack"></div>
+      </div>
+    </div>
+
+    <div class="card-controls">
+      <button class="nav" id="prevBtn" title="Previous (←)">&larr;</button>
+      <div class="center-group">
+        <button class="primary" id="flipBtn" title="Flip (Space)">Flip</button>
+        <button id="masterBtn" title="Mark mastered (M) — removes from rotation">Mastered</button>
+      </div>
+      <button class="nav" id="nextBtn" title="Next (→)">&rarr;</button>
+    </div>
+
+    <div class="progress">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <div class="progress-text" id="progressText"></div>
+  </div>
+
+  <div id="imageModal" class="image-modal" hidden role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="modal-close" type="button" aria-label="Close image viewer">&times;</button>
+    <div id="modalLoading" class="modal-loading">Loading full-size image…</div>
+    <img id="modalImg" alt="">
+    <div id="modalCaption" class="modal-caption"></div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
